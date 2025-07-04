@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npm run build:web",
+  "outputDirectory": "dist",
+  "framework": "react",
+  "regions": ["all"],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}

@@ -5,7 +5,9 @@
   "private": true,
   "scripts": {
     "dev": "expo start",
+    "build": "expo export:web",
     "build:web": "expo export --platform web",
+    "start": "npx serve dist",
     "lint": "expo lint"
   },
   "dependencies": {

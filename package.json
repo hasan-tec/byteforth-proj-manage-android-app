@@ -5,8 +5,9 @@
   "private": true,
   "scripts": {
     "dev": "expo start",
-    "build": "expo export:web",
-    "build:web": "expo export:web",
+    "build": "npx expo export --platform web",
+    "build:web": "npx expo export --platform web",
+    "vercel-build": "npx expo export --platform web",
     "start": "npx serve dist",
     "lint": "expo lint"
   },

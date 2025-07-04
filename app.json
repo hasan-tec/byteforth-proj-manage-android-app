@@ -18,7 +18,10 @@
       "favicon": "./assets/images/favicon.png",
       "name": "ByteForth Management",
       "shortName": "ByteForth",
-      "description": "ByteForth Management App"
+      "description": "ByteForth Management App",
+      "build": {
+        "output": "public"
+      }
     },
     "plugins": [
       "expo-router",
